@@ -1,0 +1,8 @@
+result/
+backup/
+.idea/
+__pycache__/
+data/__pycache__/
+layer/__pycache__/
+utils/__pycache__/
+weights/*.pth
