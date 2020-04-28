@@ -2,8 +2,298 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8126481-9780-41cc-9f53-b4ecd5800076" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/(deplicated)pyechartsPlot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/.idea/Covid19_pyecharts_visualization_local.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/Covid19_data_get/getChinaData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/Covid19_data_get/getData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/Covid19_data_get/getForeignData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/Covid19_data_get/getProvinceData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/Covid19_data_get/中国省区信息.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/img/chinaline.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/img/foreignbar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/img/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/province_total.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/Glyphicons PRO (License).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/fontawesome/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/fontawesome/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/fontawesome/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/fontawesome/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/fontawesome/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/fontawesome/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/glyphicons.filetypes.pro/glyphicons-filetypes-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/glyphicons.filetypes.pro/glyphicons-filetypes-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/glyphicons.filetypes.pro/glyphicons-filetypes-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/glyphicons.filetypes.pro/glyphicons-filetypes-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/glyphicons.halflings.pro/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/glyphicons.halflings.pro/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/glyphicons.halflings.pro/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/glyphicons.halflings.pro/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/glyphicons.pro/glyphicons-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/glyphicons.pro/glyphicons-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/glyphicons.pro/glyphicons-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/glyphicons.pro/glyphicons-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/glyphicons.social.pro/glyphicons-social-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/glyphicons.social.pro/glyphicons-social-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/glyphicons.social.pro/glyphicons-social-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/fonts/glyphicons.social.pro/glyphicons-social-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/img/avatars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/js/china.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/js/tool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/js/vendor/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/js/vendor/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/static/js/vendor/modernizr-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/templates/barChart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/templates/lineChart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/templates/templates.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/datas/12_Group_Group_12_Group_Group_12_728.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/datas/selfie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/model/DBFace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/model/DBFaceReLU.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/model/dbface-relu.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/model/dbface.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/result/easy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/result/hard.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/result/merge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/result/mid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/result/selfie.centerface.draw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/result/selfie.draw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBFace-master/result/selfie.retinaface.draw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/assets/MOT15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/assets/MOT16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/assets/MOT17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/assets/MOT20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/assets/pipeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/experiments/all_dla34.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/experiments/all_hrnet.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/experiments/all_res50.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/experiments/ft_mot15_dla34.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/experiments/ft_mot20_dla34.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/_init_paths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/caltech.10k.val" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/caltech.all" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/caltech.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/caltech.val" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/citypersons.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/citypersons.val" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/cuhksysu.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/cuhksysu.val" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/eth.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/mot15.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/mot15.training" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/mot15.val" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/mot15.validation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/mot17.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/mot17.training" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/mot17.validation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/mot20.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/prw.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/data/prw.val" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/gen_data_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/gen_labels_15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/gen_labels_20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/cfg/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/cfg/mot15.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/cfg/mot17.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/cfg/mot20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/datasets/dataset/jde.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/datasets/dataset_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/data_parallel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/decode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/losses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/DCNv2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/DCNv2/_ext.cpython-37m-x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/DCNv2/dcn_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/DCNv2/make.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/DCNv2/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/DCNv2/src/cpu/dcn_v2_cpu.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/DCNv2/src/cpu/vision.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/DCNv2/src/cuda/dcn_v2_cuda.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/DCNv2/src/cuda/dcn_v2_im2col_cuda.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/DCNv2/src/cuda/dcn_v2_im2col_cuda.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/DCNv2/src/cuda/dcn_v2_psroi_pooling_cuda.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/DCNv2/src/cuda/vision.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/DCNv2/src/dcn_v2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/DCNv2/src/vision.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/DCNv2/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/config/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/config/hrnet_w18.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/config/hrnet_w32.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/dlav0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/pose_dla_dcn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/pose_hrnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/resnet_dcn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/networks/resnet_fpn_dcn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/scatter_gather.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/models/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/opts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/tracker/basetrack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/tracker/matching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/tracker/multitracker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/tracking_utils/evaluation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/tracking_utils/io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/tracking_utils/kalman_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/tracking_utils/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/tracking_utils/nms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/tracking_utils/parse_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/tracking_utils/timer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/tracking_utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/tracking_utils/visualization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/trains/base_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/trains/mot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/trains/train_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/utils/image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/utils/post_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/lib/utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/test_det.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/test_emb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/track.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/src/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FairMOT-master/videos/MOT16-03.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_small_games/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_small_games/4_13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_small_games/4_15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_small_games/NL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_small_games/ip.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_small_games/picture/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_small_games/picture/xingkong.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_small_games/picture/xingkong2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_small_games/picture/yaohua.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_small_games/read_ip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_small_games/zuoye3_19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/2/.idea/Meteor_Shower.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/2/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/2/nuke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/2/rocket (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/2/sky2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/3/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/3/PigScriptMS.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/3/PigScriptMS_LOL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/3/PigScriptMS_LOL.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/3/PigScriptMS_new.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/3/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/3/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/.idea/One_Click_Meteor_Shower.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/auto_meteor_shower.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/excuteable/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/gen_mask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/images/final-detail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/images/final.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/images/meteor-mask.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/images/meteor_shower_800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/images/two-click_meteor_shower_demo2_800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/one_click_meteor_shower.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/saved_model/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/two_clicks_step1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/two_clicks_step2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/4/unet_proc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/5/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/5/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/5/meteors/find_meteors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/6/MeteorShower.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/6/MeteorShower/Rate-IMO-VMDB-Shower-GEM-1989-1-3-1993-12-31.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/6/MeteorShower/Rate-IMO-VMDB-Shower-GEM-1994-1-3-1998-12-31.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/6/MeteorShower/Rate-IMO-VMDB-Shower-GEM-1999-1-3-2003-12-31.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/6/MeteorShower/Rate-IMO-VMDB-Shower-GEM-2004-1-3-2008-12-31.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/6/MeteorShower/Rate-IMO-VMDB-Shower-GEM-2009-1-1-2013-12-31.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/6/MeteorShower/Rate-IMO-VMDB-Shower-GEM-2014-1-1-2018-12-31.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/6/MeteorShower/Rate-IMO-VMDB-Shower-PER-1990-1-1-1994-12-28.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/6/MeteorShower/Rate-IMO-VMDB-Shower-PER-1995-1-1-1999-12-28.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/6/MeteorShower/Rate-IMO-VMDB-Shower-PER-2000-1-1-2004-12-28.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/6/MeteorShower/Rate-IMO-VMDB-Shower-PER-2005-1-1-2009-12-28.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/6/MeteorShower/Rate-IMO-VMDB-Shower-PER-2010-1-1-2014-12-28.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/6/MeteorShower/Rate-IMO-VMDB-Shower-PER-2015-1-1-2019-12-28.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/6/MeteorShowerPlotforPERinAug..pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/6/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/CREDITS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/comets/1_comet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/comets/2_comet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/comets/3_comet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/comets/4_comet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/comets/5_comet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/crash/1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/crash/2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/crash/3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/crash/4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/crash/5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/crash/6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/death.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/high_score_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/intro.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/level1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/score_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/settings/fps.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/settings/fullscreen.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/settings/mute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/settings/res_h.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/settings/res_w.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/ships/1_ship_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/ships/2_ship_g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/ships/3_ship_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/ships/4_ship_y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/ships/5_ship_t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/ships/6_ship_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/starfield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/starfield1440.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/starfield768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/game_data/visitor.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流星雨/7/meteor_shower.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫PDF文档/小说.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫PDF文档/转pdf到word.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.spyproject/workspace.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.spyproject/workspace.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_python" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_python" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machine_learning_python/decision_tree/tree_id3.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_python/decision_tree/tree_id3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machine_learning_python/knn/knn_kdtree.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_python/knn/knn_kdtree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫百度文库/baidu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫百度文库/google.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,89 +308,26 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/machine_learning_python" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="c663c8de-bdb9-4d24-9301-69d4e32980ae" />
   <component name="ProjectId" id="1V4DrvgQvoYxgf67c8xQInr4Ta2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/cocoapi-master/PythonAPI/setup.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.coco">
-    <configuration name="约瑟夫问题" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_small_games" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_small_games/约瑟夫问题.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/掩膜Mask" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/掩膜Mask/1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="玫瑰花" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_small_games/picture" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_small_games/picture/玫瑰花.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.run">
     <configuration name="小猪佩奇" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,6 +342,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_small_games/picture/小猪佩奇.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4_15" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_small_games" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_small_games/4_15.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MeteorShower" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/流星雨/6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/流星雨/6/MeteorShower.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,7 +482,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="coco" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="getChinaData" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,12 +490,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mask_RCNN-master/samples/coco" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/Covid19_data_get" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mask_RCNN-master/samples/coco/coco.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/Covid19_data_get/getChinaData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,7 +504,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="meteor_shower" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,12 +512,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Segmentation-of-Insulator-Strings-in-Infared-Image-based-on-Mask-R-CNN--master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/流星雨/7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Segmentation-of-Insulator-Strings-in-Infared-Image-based-on-Mask-R-CNN--master/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/流星雨/7/meteor_shower.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,7 +526,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mobilenet_v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,12 +534,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mobilenet" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mobilenet/mobilenet_v1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,11 +550,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.coco" />
-        <item itemvalue="Python.约瑟夫问题" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.1" />
-        <item itemvalue="Python.mobilenet_v1" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.getChinaData" />
+        <item itemvalue="Python.4_15" />
+        <item itemvalue="Python.meteor_shower" />
+        <item itemvalue="Python.MeteorShower" />
       </list>
     </recent_temporary>
   </component>
@@ -366,11 +637,27 @@
       <workItem from="1584326046491" duration="8033000" />
       <workItem from="1584371427469" duration="478000" />
       <workItem from="1584444117876" duration="1689000" />
+      <workItem from="1584683912125" duration="5132000" />
+      <workItem from="1585535662529" duration="1234000" />
+      <workItem from="1585839266200" duration="1162000" />
+      <workItem from="1585995957636" duration="4500000" />
+      <workItem from="1586787140548" duration="3963000" />
+      <workItem from="1587104068793" duration="4934000" />
+      <workItem from="1587116398639" duration="6752000" />
+      <workItem from="1587280775083" duration="1910000" />
+      <workItem from="1587386686803" duration="2024000" />
+      <workItem from="1587631225611" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="477" y="37" key="#1" timestamp="1580908099874">
@@ -381,78 +668,82 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1582683846809" />
-    <state x="361" y="71" key="#Notifications" timestamp="1576651360016">
+    <state x="361" y="71" key="#Notifications" timestamp="1587104192981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1576651360016" />
-    <state x="510" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577607516626">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="510" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1577607516626" />
-    <state x="517" y="248" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1576505375790">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="517" y="248" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.824@0.0.1536.824" timestamp="1576505375790" />
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1587104192981" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1584337872863">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584337872863" />
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1584341435713">
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1587388954048">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584341435713" />
-    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1584341435712">
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587388954048" />
+    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1587388954048">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584341435712" />
-    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1584341435712">
+    <state width="1493" height="161" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587388954048" />
+    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1587388954048">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584341435712" />
-    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1584341435712">
+    <state width="1493" height="161" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587388954048" />
+    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1587388954048">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584341435712" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1583155140416">
+    <state width="1493" height="161" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587388954048" />
+    <state width="1493" height="230" key="GridCell.Tab.1.bottom" timestamp="1587131713011">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583155140416" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1583155140416">
+    <state width="1493" height="230" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587131713011" />
+    <state width="1493" height="230" key="GridCell.Tab.1.center" timestamp="1587131713011">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583155140416" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1583155140416">
+    <state width="1493" height="230" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587131713011" />
+    <state width="1493" height="230" key="GridCell.Tab.1.left" timestamp="1587131713010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583155140416" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1583155140416">
+    <state width="1493" height="230" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587131713010" />
+    <state width="1493" height="230" key="GridCell.Tab.1.right" timestamp="1587131713011">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583155140416" />
-    <state x="246" y="53" key="SettingsEditor" timestamp="1583479291280">
+    <state width="1493" height="230" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587131713011" />
+    <state x="246" y="53" key="SettingsEditor" timestamp="1587387260984">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="246" y="53" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583479291280" />
-    <state x="454" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1576503720296">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="454" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576503720296" />
+    <state x="246" y="53" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587387260984" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_study$detection.coverage" NAME="detection Coverage Results" MODIFIED="1576764377817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_sort-master/deep_sort" />
+    <SUITE FILE_PATH="coverage/Python_study$4_13.coverage" NAME="4_13 Coverage Results" MODIFIED="1586791240296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games" />
+    <SUITE FILE_PATH="coverage/Python_study$xingkong.coverage" NAME="xingkong Coverage Results" MODIFIED="1587118253235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games/picture" />
+    <SUITE FILE_PATH="coverage/Python_study$xingkong2.coverage" NAME="xingkong2 Coverage Results" MODIFIED="1587118425987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games/picture" />
+    <SUITE FILE_PATH="coverage/Python_study$PigScriptMS_LOL.coverage" NAME="PigScriptMS_LOL Coverage Results" MODIFIED="1587131659787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流星雨/1" />
+    <SUITE FILE_PATH="coverage/Python_study$MeteorShower.coverage" NAME="MeteorShower Coverage Results" MODIFIED="1587131882337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流星雨/6" />
+    <SUITE FILE_PATH="coverage/Python_study$4_15.coverage" NAME="4_15 Coverage Results" MODIFIED="1587281841327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games" />
+    <SUITE FILE_PATH="coverage/Python_study$yaohua.coverage" NAME="yaohua Coverage Results" MODIFIED="1587117825332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games/picture" />
+    <SUITE FILE_PATH="coverage/Python_study$getChinaData.coverage" NAME="getChinaData Coverage Results" MODIFIED="1587387028135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master/Covid19_data_get" />
+    <SUITE FILE_PATH="coverage/Python_study$22.coverage" NAME="22 Coverage Results" MODIFIED="1583494693311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games" />
+    <SUITE FILE_PATH="coverage/Python_study$run.coverage" NAME="run Coverage Results" MODIFIED="1587387309428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Covid19_pyecharts_visualization_local-master" />
+    <SUITE FILE_PATH="coverage/Python_study$1__2_.coverage" NAME="1 (2) Coverage Results" MODIFIED="1583505356302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MobilenetV1" />
+    <SUITE FILE_PATH="coverage/Python_study$read_ip.coverage" NAME="read_ip Coverage Results" MODIFIED="1586788817667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games" />
+    <SUITE FILE_PATH="coverage/Python_study$pytorch_infer.coverage" NAME="pytorch_infer Coverage Results" MODIFIED="1582688295884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FaceMaskDetection-master" />
+    <SUITE FILE_PATH="coverage/Python_study$mobilenet_v1.coverage" NAME="mobilenet_v1 Coverage Results" MODIFIED="1583505398194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobilenet" />
+    <SUITE FILE_PATH="coverage/Python_study$detection.coverage" NAME="detection Coverage Results" MODIFIED="1587131830652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流星雨/4" />
+    <SUITE FILE_PATH="coverage/Python_study$meteor_shower.coverage" NAME="meteor_shower Coverage Results" MODIFIED="1587131972968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流星雨/7" />
     <SUITE FILE_PATH="coverage/Python_study$deep_sort_app.coverage" NAME="deep_sort_app Coverage Results" MODIFIED="1576657622965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_sort-master" />
-    <SUITE FILE_PATH="coverage/Python_study$1.coverage" NAME="1 Coverage Results" MODIFIED="1583743658920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/掩膜Mask" />
+    <SUITE FILE_PATH="coverage/Python_study$PigScriptMS_new.coverage" NAME="PigScriptMS_new Coverage Results" MODIFIED="1587131726302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流星雨/1" />
+    <SUITE FILE_PATH="coverage/Python_study$pdfword.coverage" NAME="转pdf到word Coverage Results" MODIFIED="1584693814172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games" />
+    <SUITE FILE_PATH="coverage/Python_study$1.coverage" NAME="1 Coverage Results" MODIFIED="1587116917061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games/picture" />
     <SUITE FILE_PATH="coverage/Python_study$2.coverage" NAME="2 Coverage Results" MODIFIED="1583151692071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games" />
-    <SUITE FILE_PATH="coverage/Python_study$main.coverage" NAME="main Coverage Results" MODIFIED="1584275158351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Segmentation-of-Insulator-Strings-in-Infared-Image-based-on-Mask-R-CNN--master" />
+    <SUITE FILE_PATH="coverage/Python_study$main.coverage" NAME="main Coverage Results" MODIFIED="1587131747575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流星雨/2" />
     <SUITE FILE_PATH="coverage/Python_study$11.coverage" NAME="11 Coverage Results" MODIFIED="1580968665027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games/picture" />
-    <SUITE FILE_PATH="coverage/Python_study$.coverage" NAME="约瑟夫问题 Coverage Results" MODIFIED="1584330811799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games" />
+    <SUITE FILE_PATH="coverage/Python_study$.coverage" NAME="玫瑰花 Coverage Results" MODIFIED="1587116757868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games/picture" />
+    <SUITE FILE_PATH="coverage/Python_study$model.coverage" NAME="model Coverage Results" MODIFIED="1587131809613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流星雨/4" />
     <SUITE FILE_PATH="coverage/Python_study$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1583151502218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games" />
     <SUITE FILE_PATH="coverage/Python_study$10080.coverage" NAME="从100加到80 Coverage Results" MODIFIED="1583151864631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games" />
     <SUITE FILE_PATH="coverage/Python_study$coco.coverage" NAME="coco Coverage Results" MODIFIED="1584341435687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mask_RCNN-master/samples/coco" />
-    <SUITE FILE_PATH="coverage/Python_study$22.coverage" NAME="22 Coverage Results" MODIFIED="1583494693311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games" />
-    <SUITE FILE_PATH="coverage/Python_study$1__2_.coverage" NAME="1 (2) Coverage Results" MODIFIED="1583505356302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MobilenetV1" />
+    <SUITE FILE_PATH="coverage/Python_study$find_meteors.coverage" NAME="find_meteors Coverage Results" MODIFIED="1587131848775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流星雨/5/meteors" />
+    <SUITE FILE_PATH="coverage/Python_study$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1587131717555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/Anaconda3/Lib/site-packages/pymouse" />
     <SUITE FILE_PATH="coverage/Python_study$snake.coverage" NAME="snake Coverage Results" MODIFIED="1581231585668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_small_games/Snake" />
-    <SUITE FILE_PATH="coverage/Python_study$pytorch_infer.coverage" NAME="pytorch_infer Coverage Results" MODIFIED="1582688295884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FaceMaskDetection-master" />
-    <SUITE FILE_PATH="coverage/Python_study$mobilenet_v1.coverage" NAME="mobilenet_v1 Coverage Results" MODIFIED="1583505398194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobilenet" />
   </component>
 </project>
