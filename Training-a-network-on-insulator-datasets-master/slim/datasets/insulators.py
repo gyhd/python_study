@@ -31,7 +31,7 @@ slim = tf.contrib.slim
 
 _FILE_PATTERN = 'insulators_%s_*.tfrecord'
 
-SPLITS_TO_SIZES = {'train': 237, 'validation': 30}
+SPLITS_TO_SIZES = {'train': 247, 'validation': 120}
 
 _NUM_CLASSES = 2
 

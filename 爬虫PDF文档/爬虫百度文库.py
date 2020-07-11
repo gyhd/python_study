@@ -64,7 +64,7 @@ def get_page(url, data):
 
 
 if __name__ == '__main__':
-    url = "https://wenku.baidu.com/view/74a23ee96aec0975f46527d3240c844768eaa00c.html"
+    url = "https://wenku.baidu.com/view/ee8337f503d8ce2f01662304.html?qq-pf-to=pcqq.c2c"
     get_num(url)
 
 

@@ -8,7 +8,7 @@ Created on Fri Sep 13 14:50:11 2019
 import gym
 import random
 
-env = gym.make('Taxi-v2')
+env = gym.make('Taxi-v3')
 
 # 学习率
 alpha = 0.5

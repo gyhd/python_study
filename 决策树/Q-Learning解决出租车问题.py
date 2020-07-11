@@ -13,7 +13,7 @@ import random
 from IPython.display import clear_output
 
 #初始出租车V2环境
-env = gym.make("Taxi-v2").env
+env = gym.make("Taxi-v3").env
 
 #初始任意值
 q_table = np.zeros([env.observation_space.n, env.action_space.n])

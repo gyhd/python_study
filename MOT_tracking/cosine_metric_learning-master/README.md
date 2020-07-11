@@ -58,6 +58,8 @@ CUDA_VISIBLE_DEVICES="" python train_market1501.py \
     --log_dir=./output/market1501/ \
     --run_id=cosine-softmax \
     --eval_log_dir=./eval_output/market1501
+
+CUDA_VISIBLE_DEVICES="" python train_market1501.py --mode=eval --dataset_dir=./Market-1501-v15.09.15/ --loss_mode=cosine-softmax --log_dir=./output/market1501/ --run_id=cosine-softmax --eval_log_dir=./eval_output/market1501
 ```
 The command will block indefinitely to monitor the training directory for saved
 checkpoints and each stored checkpoint in the training directory is evaluated on
@@ -84,6 +86,8 @@ python train_mars.py \
     --loss_mode=cosine-softmax \
     --log_dir=./output/mars/ \
     --run_id=cosine-softmax
+
+python train_mars.py --dataset_dir=./MARS-evaluation-master --loss_mode=cosine-softmax --log_dir=./output/mars/ --run_id=cosine-softmax
 ```
 Again, this will create a directory `./output/mars/cosine-softmax` where
 TensorFlow checkpoints are stored and which can be monitored using
@@ -102,6 +106,8 @@ CUDA_VISIBLE_DEVICES="" python train_mars.py \
     --log_dir=./output/mars/ \
     --run_id=cosine-softmax \
     --eval_log_dir=./eval_output/mars
+
+CUDA_VISIBLE_DEVICES="" python train_mars.py --mode=eval --dataset_dir=./MARS-evaluation-master/ --loss_mode=cosine-softmax --log_dir=./output/mars/ --run_id=cosine-softmax --eval_log_dir=./eval_output/mars
 ```
 Evaluation metrics on the validation set can be monitored with ``tensorboard``
 ```
@@ -120,6 +126,8 @@ python train_mars.py \
     --dataset_dir=./MARS-evaluation-master \
     --loss_mode=cosine-softmax .\
     --restore_path=PATH_TO_CHECKPOINT
+
+python train_mars.py --mode=export --dataset_dir=./MARS-evaluation-master --loss_mode=cosine-softmax --restore_path=PATH_TO_CHECKPOINT
 ``` 
 where ``PATH_TO_CHECKPOINT`` the checkpoint file to evaluate. Note that the
 evaluation script needs minor adjustments to apply the cosine similarity metric.
@@ -153,6 +161,8 @@ python train_market1501.py \
     --sdk_dir=./Market-1501_baseline-v16.01.14/
     --loss_mode=cosine-softmax \
     --restore_path=PATH_TO_CHECKPOINT
+
+python train_market1501.py --mode=export --dataset_dir=./Market-1501-v15.09.15 --sdk_dir=./Market-1501_baseline-v16.01.14 --loss_mode=cosine-softmax --restore_path=PATH_TO_CHECKPOINT
 ```
 This command creates ``./Market-1501_baseline-v16.01.14/feat_query.mat`` and
 ``./Market-1501_baseline-v16.01.14/feat_test.mat`` to be used with the

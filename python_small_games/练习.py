@@ -110,9 +110,113 @@ print('a9=',a9)
 
 
 
+for i in range(1,10):
+    for j in range(1,10):
+        if i > j:
+            print('%d * %d=%2s  ' %(j,i,i*j), end='')
 
 
 
+name = 'admin'
+passwd = '123'
+
+
+name1 = input('enter your name:')
+
+if name1 == name:
+    passwd1 = input('enter your passwd:')
+    if passwd1 == passwd:
+        print('sign in success')
+    else:
+        print('wrong passwd')
+else:
+    print('wrong name')
+
+
+
+s1 = ' Marry is a beautiful gril '
+
+# 1
+list_s1 = list(s1)
+list_s1.pop(0)
+list_s1.pop(-1)
+
+list_s1 = ''.join(list_s1)
+print(list_s1)
+
+# 2
+print(list_s1.count('a'))
+
+# 3
+print(list_s1.split('a'))
+
+# 4
+print(list_s1.replace('a','c'))
+
+# 5
+print(list_s1.upper())
+
+# 6
+print(list_s1[:2])
+
+# 7
+print(list_s1[1:2])
+
+# 8
+print(list_s1[-2:0])
+
+
+def twoSum(self, nums, target):
+
+    for i in [0, len(nums)]:
+        for j in [i + 1, len(nums)]:
+            if target != nums[i] + nums[j]:
+                break
+        else:
+            print()
+    return (nums[i], nums[j])
+
+
+nums = [2, 7, 11, 15]
+target = 9
+twoSum(self.nums, self.target)
+
+
+
+
+def findMedianSortedArrays(nums1, nums2):
+    """
+    :type nums1: List[int]
+    :type nums2: List[int]
+    :rtype: float
+    """
+    import math
+    num = nums1 + nums2
+    num.sort()
+    if len(num)%2 == 0:
+        m1 = len(num)/2 - 1
+        m = (num[int(m1)] + num[int(m1+1)])/2
+        return m
+    else:
+        m1 = math.floor(len(num)/2+1)
+        return m1
+
+
+def maxArea(height):
+    b = 0
+    if len(height) < 2:
+        return False
+    for i in range(len(height) - 1):
+        for j in range(i + 1, len(height)):
+            a = (j - i) * min(height[i], height[j])
+            if a > b:
+                b = a
+            else:
+                pass
+    return b
+
+
+maxArea([1, 8, 6, 2, 5, 4, 8, 3, 9])
 
 
 

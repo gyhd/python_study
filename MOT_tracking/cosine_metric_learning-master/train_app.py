@@ -654,3 +654,4 @@ def _create_loss(
     if monitor_triplet and mode != "triplet":
         _create_triplet_loss(
             feature_var, logit_var, label_var, monitor_mode=True)
+
